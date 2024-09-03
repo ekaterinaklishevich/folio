@@ -17,6 +17,10 @@ button:hover {
     max-width: 1456px;
     margin: 0 auto;
     padding: 60px 72px 0;
+
+    .burger_menu{
+        display: none;
+    }
 }
 .navi_container{
     display: flex;
@@ -235,7 +239,7 @@ button:hover {
         font-size: 32px;
         font-weight: 600;
         line-height: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     p{
         color: #8B8B8B;
@@ -270,8 +274,8 @@ button:hover {
     max-width: 1552px;
     padding: 0 120px;
     margin: 0 auto;
-    background: url(../svg/line2.svg), 
-                url(../svg/line1.svg);
+    background-image: url(../svg/line2.svg), 
+                      url(../svg/line1.svg);
     background-repeat: no-repeat, 
                        no-repeat;
     background-position: 110px 0,
@@ -446,7 +450,7 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    padding-right: 200px;
+    padding-right: 170px;
     padding-left: 300px;
     margin-bottom: 160px;
 }
@@ -847,6 +851,7 @@ button:hover {
 }
 .socials{
     display: flex;
+    align-items: center;
     gap: 40px;
 
     a{
